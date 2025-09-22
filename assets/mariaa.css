@@ -7,16 +7,16 @@
     font-size: 4rem;
     text-align: center;
     margin: 60px 0 30px 0;
-    color: #FFFFFF;
+    color: #a26e05;
     font-weight: bold;
-    text-shadow: 4px 6px #313131;
+   
 }
 
 .cardapio-texto {
     font-size: 1.6rem;
     text-align: center;
     margin-bottom: 50px;
-    color: #FFFFFF;
+    color: #e0a02b;
 }
 
 .cardapio-opcao {
@@ -40,7 +40,7 @@
 .cardapio-nome {
     margin-bottom: 20px;
     font-size: 1.6rem;
-    color: #FFFFFF;
+    color: #7d5304;
 }
 
 .cardapio-imagem {
@@ -52,7 +52,7 @@
 .cardapio-descricao {
     font-size: 1.3rem;
     margin: 10px 0;
-    color: #FFFFFF;
+    color: #b9841c;
     padding: 0 15px;
 }
 
@@ -117,4 +117,7 @@
     .cardapio-lista {
        text-align: center;
     }
+}
+body{
+    background-color: bisque;
 }
