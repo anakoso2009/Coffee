@@ -1,3 +1,10 @@
+
+
+*{
+ margin: 0%;
+ padding: 0%;
+}
+
 @font-face {
   font-family: 'Times Ten Pro';
   src: url('fonts/times-ten-pro-bold.woff2') format('woff2'),
@@ -5,6 +12,57 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Carioca Script Pro'; 
+  src: url('/fonts/CariocaScriptPro-Regular.woff2') format('woff2'),
+       url('/fonts/CariocaScriptPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.Principal {
+    background-image: url(/img/café\ principal.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1478px;
+    color: #ffffff;
+    padding-top: 200px;
+    padding-left: 50px;
+
+    .h1{
+      font-size: 150px;
+     
+    }
+
+    .p{
+      font-size: 25px;
+      font-family: 'Times Ten Pro', serif;
+    }
+
+    .coffee-btn {
+   background: #f9bf69;
+   color: #603808;
+   font-family: 'Times Ten Pro', serif;
+   font-weight: bold;
+   font-size: 1rem;      
+   border: none;
+   border-radius: 18px;    
+   padding: 9px 20px;      
+   transition: color 0.2s;
+  }
+  .coffee-btn:hover{
+   background: #d37809;
+   color: #fff;
+  }
+}
+
+.espaco {
+  padding: 15px;
+}
+
 
 .coffee-div2 {
   display: flex;
@@ -37,16 +95,15 @@ flex: auto;  display: flex;
   margin-bottom: 32px;
 }
 
-      &:hover {
-        transform: translateY(-5px) scale(1.05);
-        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
-        
-      }
+      
     
 
-  .Principal {
-    background-image: url(/img/café\ principal.webp);
-     background-repeat: no-repeat;
-    height: 685px;
-    width: 6000px;
+
+  nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
   }
