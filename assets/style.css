@@ -1,46 +1,27 @@
 
-
-*{
- margin: 0%;
- padding: 0%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 @font-face {
   font-family: 'Times Ten Pro';
   src: url('fonts/times-ten-pro-bold.woff2') format('woff2'),
        url('fonts/times-ten-pro-bold.woff') format('woff');
   font-weight: 700;
-  font-style: normal;
 }
 
-@font-face {
-  font-family: 'Carioca Script Pro'; 
-  src: url('/fonts/CariocaScriptPro-Regular.woff2') format('woff2'),
-       url('/fonts/CariocaScriptPro-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+*{
+ margin: 0%;
+ padding: 0%;
 }
 
 .Principal {
     background-image: url(/img/café\ principal.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    padding-top: 20px;
+    height: 600px;
     width: 1478px;
     color: #ffffff;
-    padding-top: 200px;
     padding-left: 50px;
-
-    .h1{
-      font-size: 150px;
-     
-    }
-
-    .p{
-      font-size: 25px;
-      font-family: 'Times Ten Pro', serif;
-    }
 
     .coffee-btn {
    background: #f9bf69;
@@ -50,7 +31,7 @@
    font-size: 1rem;      
    border: none;
    border-radius: 18px;    
-   padding: 9px 20px;      
+   padding: 9px 20px;    
    transition: color 0.2s;
   }
   .coffee-btn:hover{
@@ -59,9 +40,68 @@
   }
 }
 
+#fonte {
+  font-size: 140px;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+     
+}
+
 .espaco {
   padding: 15px;
 }
+
+header {
+  width: 100%;
+}
+
+nav {
+margin-bottom: 100px;
+width: 100%;
+height: 70px;
+
+}
+
+#canto {
+  font-size: 30px;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#meio {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#lateral {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .coffee-div2 {
@@ -98,12 +138,3 @@ flex: auto;  display: flex;
       
     
 
-
-  nav {
-  width: 100%;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-  }
