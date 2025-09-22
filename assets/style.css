@@ -44,7 +44,7 @@ header {
   }
 
   .Principal {
-    background-image: url(../IMG/café\ principal.webp);
+    background-image: url(/img/café\ principal.webp);
      background-repeat: no-repeat;
     height: 685px;
     width: 6000px;
