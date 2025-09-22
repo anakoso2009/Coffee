@@ -3,6 +3,10 @@ padding: 0%;
 margin: 0%;
 }
 
+:root{
+    --texto: #ffffff;
+    --botao: #FFB266;
+}
 @font-face {
   font-family: 'Times Ten Pro';
   src: url('fonts/times-ten-pro-bold.woff2') format('woff2'),
@@ -12,6 +16,44 @@ margin: 0%;
 
 .parte1 {
   background-image: url(https://chat.google.com/u/1/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEVUBVHPow0h7a9vwJQnkA3wQlCkhOuF43HoGgwPiuMbF8I0okZl1%2Bd3XIfdUEzcCnxUdIqwa8C7gL0q35imTeZ%2FSKhF04cXeHD6Y2EbbGdfDqjj2VVP%2BAGHfq4DsVWpghE6HZIazU7Mz2%2F4oXeJrhxtwBunjD%2BIVLv39pncez5oq1WZEQbn8XnHW7HNsHy7nT7AUxSnmI3RlUK4R1iJnGo8KRO6TUi2gOa41BB1y9iVhglcvCfR2XQQl1HvxMarcXy8TRHIrzUjmeG8lwh4EiJfz2JEN3U0euK%2ByHxtffNIcAYgZO9htkpGA6SgwQsYw49OFz91aduqtSiANKXBhXbyRXcKWseX5Oei3pJNMhx5EtKROMHmZUnY8lKritQ5Cc6zRjuu%2Bh4dNjxhcpzKudrYZsotsDv7BwTF8M2RGNriEc8Zn4o%2FUU8V6hiRIvlHEOKLeslt2Qw7wfvgFx8rXirUM%2FWriGHZ1s%2FnLp%2F1Av0DIqxtqOjhrJV37ZyLYq56yfxeA8Ez7ky7pAgMEy6ml7DEESfYzUUtSYVuxCyFiSef0%2BQXlfbCXTr6sHukw30%3D&allow_caching=true&authuser=1&sz=w1920-h970-rw&auditContext=forDisplay);
-  siz
+  color: var(--texto);
+  height: 300px;
+  background-size: cover;
+  padding-bottom: 30px;
+  display: flex;
 }
 
+
+
+.botao {
+    border-radius: 50px;
+    background-color: var(--botao);
+    height: 30px;
+    width: 100px;
+    margin-top: 8px;
+    border: none;
+    color:#593716;
+    font-weight: bold;
+    font-family: 'Times Ten Pro', serif;
+    margin-top: 1cm;
+    
+}
+
+button:hover {
+  background-color: #593716; 
+  color: var(--botao);
+}
+
+h1 {
+    padding-top: 1cm;
+}
+
+p {
+    padding-top: 0.5cm;
+}
+
+img {
+    padding-top: 10px;
+    padding-left: 200px;
+    height: 7cm;
+}
