@@ -1,12 +1,81 @@
 * {
     padding: 0%;
     margin: 0%;
-    
+
 }
 
 #div1 {
-    background-color: black;
+
     width: 100%;
-    height: 150px;
-    background-image: url();
+    height: 400px;
+    background-image: url(../img/caféfundo2.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 1cm;
+}
+
+#text1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+
+#email {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 15px;
+    width: 10cm;
+    height: 1.5cm;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+#button {
+    height: 1.5cm;
+    width: 3cm;
+    background-color: rgb(245, 191, 97);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+color:rgb(81, 61, 34);
+}
+
+.html{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 13cm;
+    border-radius: 5px;
+}
+
+#ladoesquerdo {
+    width: 10cm;
+    
+   
+}
+
+#ladodireito {
+    width: 7cm;
+   
+}
+
+#div2 {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(81, 61, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
