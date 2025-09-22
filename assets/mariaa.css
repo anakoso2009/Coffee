@@ -9,7 +9,6 @@
     margin: 60px 0 30px 0;
     color: #a26e05;
     font-weight: bold;
-   
 }
 
 .cardapio-texto {
@@ -118,9 +117,11 @@
        text-align: center;
     }
 }
-body{
+
+body {
     background-color: bisque;
 }
+
 .produto {
   display: flex; 
   flex-direction: column; 
@@ -134,39 +135,8 @@ body{
   font-size: 1.5em; 
   font-weight: bold; 
   margin-bottom: 15px;
-  border-center
- display: flex: align-items: ;;
-}
-
-.botao-comprar {
-  background-color: #4CAF50; 
-  color: white; 
-  padding: 10px 20px;
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  font-size: 1em; 
-  justify-content: center;
-  padding-left: 200px;
-}
-
-.botao-comprar:hover {
-  background-color: #45a049;
-  justify-content: center;
-}
-.botao-comprar {
-  background-color: #4CAF50; 
-  color: white; 
-  padding: 10px 20px;
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  font-size: 1em; 
-  margin-top: 10px;
-}
-
-.botao-comprar:hover {
-  background-color: #45a049;
+  display: flex;
+  align-items: center;
 }
 
 .botao-comprar {
@@ -185,4 +155,3 @@ body{
 .botao-comprar:hover {
   background-color: #555; /* escurece ao passar o mouse */
 }
-
