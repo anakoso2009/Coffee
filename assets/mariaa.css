@@ -121,3 +121,68 @@
 body{
     background-color: bisque;
 }
+.produto {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+}
+
+.preco {
+  font-size: 1.5em; 
+  font-weight: bold; 
+  margin-bottom: 15px;
+  border-center
+ display: flex: align-items: ;;
+}
+
+.botao-comprar {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 1em; 
+  justify-content: center;
+  padding-left: 200px;
+}
+
+.botao-comprar:hover {
+  background-color: #45a049;
+  justify-content: center;
+}
+.botao-comprar {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 1em; 
+  margin-top: 10px;
+}
+
+.botao-comprar:hover {
+  background-color: #45a049;
+}
+
+.botao-comprar {
+  background-color: #333; /* fundo escuro */
+  color: #fff; /* texto branco */
+  padding: 12px 25px; /* tamanho do botão */
+  border: none;
+  border-radius: 5px; /* cantos arredondados */
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  transition: background-color 0.3s;
+  margin-top: 15px; /* distância do preço */
+}
+
+.botao-comprar:hover {
+  background-color: #555; /* escurece ao passar o mouse */
+}
+
