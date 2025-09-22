@@ -74,7 +74,6 @@ height: 70px;
   font-style: normal;
 }
 
-
 #meio {
   width: 500px;
   display: flex;
@@ -89,11 +88,6 @@ height: 70px;
   align-items: center;
   padding-right: 60px;  /*separar conteúdo da direita*/
 }
-
-
-
-
-
 
 @media (max-width: 1199px) and (min-width: 768px) {
   /*Diminuir fontes e larguras de tudo*/
@@ -164,21 +158,6 @@ height: 70px;
   }
  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .coffee-div2 {
   display: flex;
