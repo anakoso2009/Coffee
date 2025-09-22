@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap'); /*Fonte*/
 
 @font-face {
@@ -19,7 +18,7 @@
     background-size: cover; /*para ficar na pagina inteira*/
     padding-top: 20px; /*separar conteúdo do topo da imagem*/
     height: 600px; /*altura*/
-    width: 1478px; /*largura*/
+    width: 100%; /*largura*/
     color: #ffffff; /*cor da fonte*/
     padding-left: 50px; /*separar conteúdo da esquerda*/
 
@@ -28,7 +27,7 @@
    color: #603808; 
    font-family: 'Times Ten Pro', serif; 
    font-weight: bold; /*deixar em negrito*/
-   font-size: 1rem;   /*tamanho da fonte*/
+   font-size: 16px;   /*tamanho da fonte*/
    border: none; /*sem borda*/
    border-radius: 18px;  /*bordas arredondadas*/
    padding: 9px 20px;   /*padding do botão*/
@@ -90,6 +89,83 @@ height: 70px;
   align-items: center;
   padding-right: 60px;  /*separar conteúdo da direita*/
 }
+
+
+
+
+
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  /*Diminuir fontes e larguras de tudo*/
+  #fonte {
+    font-size: 90px; 
+  }
+
+  #meio {
+    width: 350px; 
+    font-size: 14px;
+  }
+
+  .coffee-btn {
+    font-size: 18px;
+    padding: 7px 15px;
+  }
+
+  .Principal {
+    height: 500px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  /*Diminuir fontes, imagem, larguras e alinhamentos de tudo*/
+.coffee-btn {
+  font-size: 5px;
+}
+
+ nav{
+  font-size: 10px;
+  
+ }
+
+#canto {
+  display: flex;
+  text-align: center;
+  
+}
+
+#meio {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#lateral {
+  display: flex;
+  text-align: center;
+}
+
+  .Principal {
+    text-align: left;
+    background-image: url(/img/café\ da\ principal.webp);
+    padding: 20px;
+  }
+
+  #fonte {
+    font-size: 50px; 
+  }
+
+  p{
+    font-size: 15px;
+  }
+
+  #nav {
+    flex-direction: column;
+  }
+ 
+}
+
+
 
 
 
