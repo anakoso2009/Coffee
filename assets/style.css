@@ -13,11 +13,9 @@
   justify-content: space-around;
   padding: 32px ;
   background: #fff;
-  gap: 40px;
 }
 
 .coffee-texto {
-flex: auto;  display: flex;
   flex-direction: column;
   max-width: 480px;
 
@@ -37,18 +35,26 @@ flex: auto;  display: flex;
   margin-bottom: 32px;
 }
 
+
+
 .coffee-btn {
   background: #f9bf69;
   color: #603808;
   font-family: 'Times Ten Pro', serif;
   font-weight: bold;
-  font-size: 0.95rem;
+  font-size: 1rem;      
   border: none;
-  border-radius: 20px;
-  padding: 8px 20px;
+  border-radius: 18px;    
+  padding: 9px 20px;      
+  transition: color 0.2s;
 }
  .coffee-btn:hover{
   background: #d37809;
   color: #fff;
 }
-  
+ 
+.coffee-decor {
+ margin-top: -175px;
+ margin-left: -9px;
+}
+ 
