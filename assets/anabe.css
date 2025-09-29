@@ -20,7 +20,7 @@
   color: var(--texto);
   height: 300px;
   background-size: cover;
-  padding-bottom: 30px;
+    padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
